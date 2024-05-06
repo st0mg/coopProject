@@ -1,9 +1,17 @@
 @import url(header.css);
+@import url(welcome.css);
+
+@font-face {
+    font-family: Garet;
+    src: url(../font/ofont.ru_Garet.ttf);
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
+    font-family: Garet;
 }
 
 html, body {
@@ -20,4 +28,16 @@ a {
 
 :root{
     --side-padding: 8%;
+    --black: rgb(22, 22, 22);
+    --blue: rgb(0, 115, 255);
+    --light-gray: rgb(234, 234, 234);
+    --white: rgb(244, 244, 244);
+}
+
+button{
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 15px;
 }

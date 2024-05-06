@@ -3,6 +3,9 @@ header {
     justify-content: space-between;
     color: black;
     padding: 0.5% var(--side-padding);
+
+    position: fixed;
+    width: 100%;
 }
 
 header .logo {

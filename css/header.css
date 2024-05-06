@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 0.5% var(--side-padding);
+}
+
+header .logo {
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo h2 {
+    font-size: 32px;
+}
+
+header nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}

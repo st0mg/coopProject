@@ -84,4 +84,10 @@ h1 {
 
 section {
     padding: 2% var(--side-padding);
+    opacity: 0;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+.isShow {
+    opacity: 1;
 }

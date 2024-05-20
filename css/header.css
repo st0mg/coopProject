@@ -4,8 +4,12 @@ header {
     color: black;
     padding: 0.5% var(--side-padding);
 
+    transition-duration: 0.2s;
+
     position: fixed;
     width: 100%;
+    z-index: 6;
+    background-color: var(--white);
 }
 
 header .logo {
@@ -25,4 +29,8 @@ header nav {
     align-items: center;
     display: flex;
     gap: 15px;
+}
+
+.hideHeader {
+    transform: translateY(-100%);
 }

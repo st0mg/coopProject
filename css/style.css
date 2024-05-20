@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(welcome.css);
 @import url(mainInfo.css);
+@import url(aboutBody.css);
 
 @font-face {
     font-family: Garet;
@@ -58,3 +59,6 @@ h1 {
     font-size: 2.2rem;
 }
 
+section {
+    padding: 2% var(--side-padding);
+}

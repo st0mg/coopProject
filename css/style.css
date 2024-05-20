@@ -2,6 +2,7 @@
 @import url(welcome.css);
 @import url(mainInfo.css);
 @import url(aboutBody.css);
+@import url(footer.css);
 
 @font-face {
     font-family: Garet;
@@ -45,6 +46,11 @@ button{
     border-radius: 15px;
     user-select: none;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: rgb(42, 138, 255);
+    transform: scale(1.1);
 }
 
 p {
